@@ -1,0 +1,22 @@
+Playlist: [Shot For Me, Nights, Holy Grail, Like A Tattoo]
+Duplicate add: false
+Find Song_3: Holy Grail
+
+play Song_1 -> Shot For Me
+next    -> Nights
+next    -> Holy Grail
+History: [Nights, Shot For Me]
+
+Up next: [Shot For Me, Like A Tattoo]
+next    -> Shot For Me
+back    -> Holy Grail
+Up next: [Shot For Me, Like A Tattoo]
+History: [Nights, Shot For Me]
+
+Remove Song_4: true
+Remove playing song (Song_3): false
+Playlist: [Shot For Me, Nights, Holy Grail]
+
+Now playing: Holy Grail
+Play count Song_1: 2
+Play count Song_3: 2
